@@ -1,0 +1,59 @@
+.menu-icon::before {
+  float:right;
+}
+
+
+
+/*.titleAndPicture {
+  float: left;
+}*/
+
+nav ul {
+  display: none;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+.portraitPicture {
+  display: inline-block;
+  float: left;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.divider {
+  height: 2em;
+  width: 100%;
+  background-color: black;
+}
+
+footer {
+  width: 100%;
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  nav ul {
+    display: block
+  }
+  .socialMediaIcons li {
+    display: inline-block;
+  }
+  footer {
+    position: fixed;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
