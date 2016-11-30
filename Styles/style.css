@@ -32,6 +32,10 @@ main {
   background-color: black;
 }
 
+.highlight {
+  display: none;
+}
+
 .mainParagraph h2 {
   text-align: center;
 }

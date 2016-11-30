@@ -10,9 +10,12 @@ Project.prototype.toHtml = function() {
   $newProject.find('a[href]').attr('href', this.url);
   $newProject.find('img[src]').attr('src', this.imgUrl);
   $newProject.find('p').html(this.body);
+  $newProject.find('img[alt]').attr('alt', this.name);
+  $newProject.removeClass('highlight');
+  $newProject.addClass('project');
   return $newProject;
 };
 
 projects.forEach(function(projectObj) {
-  $('#highlight').append(projectObj.toHtml());
+  $('.mainParagraph').append(projectObj.toHtml());
 });
