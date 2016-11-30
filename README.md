@@ -1,6 +1,12 @@
 # Portfolio
 represents personal online presence
 
+TODOS
+
+1. style project class in CSS for when there is multiple projects. Add divider between projects.
+2. style header.
+3. add timestamps in blog.js.
+
 User Stories
 
 Day 1:
