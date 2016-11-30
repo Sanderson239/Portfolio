@@ -32,6 +32,16 @@ main {
   background-color: black;
 }
 
+.mainParagraph h2 {
+  text-align: center;
+}
+
+.mainParagraph img {
+  height: 14em;
+  width: 14em;
+  float: right;
+}
+
 footer {
   width: 100%;
   background-color: grey;
