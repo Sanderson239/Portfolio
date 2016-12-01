@@ -16,6 +16,17 @@ Project.prototype.toHtml = function() {
   return $newProject;
 };
 
+Project.handleMainNav = function () {
+  $('.socialMedia').on('click', '.local', function() {
+    $('.view').hide();
+    $('#' + $(this).attr('data-content')).show();
+  });
+  $('.socialMedia .local:first').click();
+};
+
+
 projects.forEach(function(projectObj) {
-  $('.mainParagraph').append(projectObj.toHtml());
+  $('#portfolioHighlights').append(projectObj.toHtml());
 });
+
+Project.handleMainNav();
