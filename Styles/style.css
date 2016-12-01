@@ -1,8 +1,20 @@
+body {
+  background-color: #C84127;
+}
+
 .menu-icon::before {
   float:right;
 }
 
+#portrait {
+  height: 10em;
+  width: 10em;
+  border-radius: 100%;
+}
 
+header h1 {
+  background-color: #67C5C2;
+}
 
 /*.titleAndPicture {
   float: left;
@@ -21,6 +33,10 @@ nav:hover ul {
   float: left;
 }
 
+.socialMedia {
+  margin-top: 10em;
+}
+
 main {
   margin-left: 10%;
   margin-right: 10%;
@@ -29,16 +45,22 @@ main {
 .divider {
   height: 2em;
   width: 100%;
-  background-color: black;
+  background-color: #3D2117;
 }
 
 .highlight {
   display: none;
 }
 
+.project {
+margin-top: 5em;
+margin-bottom: 5em;
+}
+
 .view h2 {
   text-align: center;
 }
+
 
 .view img {
   height: 14em;
@@ -48,13 +70,19 @@ main {
 
 footer {
   width: 100%;
+  height: 4em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   background-color: grey;
   position: absolute;
   bottom: 0;
+  background-color: #67C5C2;
 }
 
 footer p {
   text-align: center;
+  margin-top: .4em;
+  margin-bottom: .4em;
 }
 
 @media only screen and (min-width: 640px) {
