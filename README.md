@@ -28,3 +28,14 @@ Day 2:
 3. As a developer, I want portfolio items displayed with a repeatable template, so that I can reuse it, and abstract out the details for individual projects.
 
 4. As a developer, I want my CSS organized (think SMACSS) so that I can find my stylings swiftly.
+
+Day 3:
+
+1. As the creator, I want the Home and About nav links to act as tabs, so my story is revealed FAST.
+
+  This means your links to NOT navigate to a new page.
+  Instead, your "single page app" shows only the section related to the navigation tab that is selected.
+  You can use 'data-' attributes to associate a content section with a particular tab
+
+2. Then use jQuery so when the tab is clicked, you hide all the sections, then reveal the associated section only.
+As a reader, I want the portfolio to use a nice color scheme, so that it stands out visually.

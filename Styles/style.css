@@ -36,11 +36,11 @@ main {
   display: none;
 }
 
-.mainParagraph h2 {
+.view h2 {
   text-align: center;
 }
 
-.mainParagraph img {
+.view img {
   height: 14em;
   width: 14em;
   float: right;
