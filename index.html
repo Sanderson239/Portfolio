@@ -34,10 +34,13 @@
       <section class="view" id="portfolioHighlights">
         <h2>Development Portfolio Highlights</h2>
         <section class="highlight">
-        <a href=""></a>
-        <img src="" alt="" />
-        <p>
-        </p>
+          <script id="project-template" type="text/x-handlebars-template">
+          <a href="{{url}}">{{name}}</a>
+          <img src="{{imgUrl}}" alt="{{name}}" />
+          <p>
+            {{body}}
+          </p>
+          </script>
       </section>
       </section>
       <section id="about" class="view">
@@ -56,6 +59,7 @@
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="Scripts/projects.js"></script>
     <script src="Scripts/blog.js"></script>
   </body>
