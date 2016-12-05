@@ -16,10 +16,6 @@ header h1 {
   background-color: #67C5C2;
 }
 
-/*.titleAndPicture {
-  float: left;
-}*/
-
 nav ul {
   display: none;
 }
@@ -63,8 +59,8 @@ margin-bottom: 5em;
 
 
 .view img {
-  height: 14em;
-  width: 14em;
+  height: 11em;
+  width: 11em;
   float: right;
 }
 
