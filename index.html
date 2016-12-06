@@ -4,8 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Styles/style.css">
+    <script id="project-template" type="text/x-handlebars-template">
+      <a href="{{url}}">{{name}}</a>
+      <img src="{{imgUrl}}" alt="{{name}}" />
+      <p>
+        {{{body}}}
+      </p>
+    </script>
     <title>Stephen's Portfolio</title>
   </head>
+  <div class="wrap">
   <body>
     <header>
       <section>
@@ -34,13 +42,6 @@
       <section class="view" id="portfolioHighlights">
         <h2>Development Portfolio Highlights</h2>
         <section class="highlight">
-          <script id="project-template" type="text/x-handlebars-template">
-          <a href="{{url}}">{{name}}</a>
-          <img src="{{imgUrl}}" alt="{{name}}" />
-          <p>
-            {{body}}
-          </p>
-          </script>
       </section>
       </section>
       <section id="about" class="view">
@@ -50,6 +51,7 @@
         </p>
       </section>
     </main>
+  </div>
     <footer>
       <p>Copyright 2016 &copy; <span>Stephen Anderson</span>,</p>
       <hr>

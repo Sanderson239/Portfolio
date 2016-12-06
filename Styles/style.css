@@ -1,3 +1,7 @@
+.wrap {
+  min-height: 100vh - 80px
+}
+
 body {
   background-color: #C84127;
 }
@@ -70,7 +74,6 @@ footer {
   padding-top: .5em;
   padding-bottom: .5em;
   background-color: grey;
-  position: absolute;
   bottom: 0;
   background-color: #67C5C2;
 }
