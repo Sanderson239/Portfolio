@@ -3,9 +3,13 @@ represents personal online presence
 
 TODOS
 
-1. style project class in CSS for when there is multiple projects. Add divider between projects.
-2. style header.
+1. Add divider between projects.
+2. style header more.
 3. add timestamps in blog.js.
+4. add show more/less
+5. add category tags
+6.1 add filter
+  6.2 use handlebars to populate and run filter
 
 User Stories
 
