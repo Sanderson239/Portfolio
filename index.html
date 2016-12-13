@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Styles/style.css">
     <script id="project-template" type="text/x-handlebars-template">
-      <a href="{{url}}">{{name}}</a>
-      <img src="{{imgUrl}}" alt="{{name}}" />
-      <p>
-        {{{body}}}
-      </p>
+      <project category="{{category}}">
+        <a href="{{url}}">{{name}}</a>
+        <img src="{{imgUrl}}" alt="{{name}}" />
+        <p>
+          {{{body}}}
+        </p>
+      </project>
+    </script>
+    <script id="category-filter-template" type="x-handlebar-template">
+      <option value="{{category}}">{{category}}</option>
     </script>
     <title>Stephen's Portfolio</title>
   </head>
@@ -41,6 +46,11 @@
       </div>
       <section class="view" id="portfolioHighlights">
         <h2>Development Portfolio Highlights</h2>
+        <div class="filter">
+        <select id="category-filter">
+          <option value=""> Filter by Category </option>
+        </select>
+      </div>
         <section class="highlight">
       </section>
       </section>
