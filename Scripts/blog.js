@@ -51,5 +51,6 @@ Project.fetchAll = function() {
   }
 };
 
+
 Project.fetchAll();
 // Project.handleMainNav();

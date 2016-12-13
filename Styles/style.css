@@ -48,6 +48,12 @@ main {
   background-color: #3D2117;
 }
 
+#category-filter {
+  /*text-align does nothing*/
+  text-align: center;
+
+}
+
 .highlight {
   display: none;
 }
@@ -91,9 +97,7 @@ footer p {
   .socialMediaIcons li {
     display: inline-block;
   }
-  footer {
-    position: fixed;
-  }
+
   .menu-icon {
     display: none;
   }
