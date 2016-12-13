@@ -35,7 +35,7 @@ Project.handleMainNav = function () {
 Project.renderProjects= function() {Project.projects.forEach(function(projectObj) {
   $('#portfolioHighlights').append(projectObj.toHtml());
 });
-  Project.handleMainNav();
+//  Project.handleMainNav();
 };
 
 Project.fetchAll = function() {
@@ -43,7 +43,7 @@ Project.fetchAll = function() {
     Project.loadAll(JSON.parse(localStorage.projects));
     Project.renderProjects();
   } else {
-    $.getJSON('Scripts/projects.json', function(data) {
+    $.getJSON('scripts/projects.json', function(data) {
       localStorage.projects = JSON.stringify(data);
       Project.loadAll(data);
       Project.renderProjects();

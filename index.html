@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script id="project-template" type="text/x-handlebars-template">
       <project category="{{category}}">
         <a href="{{url}}">{{name}}</a>
@@ -32,8 +32,8 @@
             Placeholder menu icon
           </div>
           <ul class="socialMediaIcons">
-            <li class="local" data-content="portfolioHighlights"><a href="#">Home</a></li>
-            <li class="local" data-content="about"><a href="#">About</a></li>
+            <li class="local" data-content="portfolioHighlights"><a href="/">Home</a></li>
+            <li class="local" data-content="about"><a href="/about">About</a></li>
             <li><a href="https://www.facebook.com/stephen.anderson.165">facebook</a></li>
             <li><a href="https://www.linkedin.com/in/stephen-anderson-168321104">linkedin</a></li>
             <li><a href="https://github.com/Sanderson239">github</a></li>
@@ -57,7 +57,7 @@
       <section id="about" class="view">
         <h1>A brief bio</h1>
         <p>
-          I was born in Naples, FLorida and attended university at American University in Washington, DC. Besides coding, other interests are traveling and learning Korean and Chinese. In university I spent a semester as an exchange student in Korea at Yonsei University.
+          I was born in Naples, Florida and attended university at American University in Washington, DC. Besides coding, other interests are traveling and learning Korean and Chinese. In university I spent a semester as an exchange student in Korea at Yonsei University.
         </p>
       </section>
     </main>
@@ -67,11 +67,16 @@
       <hr>
       <p>sa3196a@student.american.edu</p>
     </footer>
+    <script src="vendor/page.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-    <script src="Scripts/blog.js"></script>
+    <script src="scripts/blog.js"></script>
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/projectsController.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+
   </body>
 </html>
