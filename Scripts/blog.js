@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 function Project (opts) {
   for (var keys in opts) {
     this[keys] = opts[keys];
@@ -23,19 +25,10 @@ Project.prototype.toHtml = function() {
   return templateRender(this);
 };
 
-Project.handleMainNav = function () {
-  $('.socialMedia').on('click', '.local', function() {
-    $('.view').hide();
-    $('#' + $(this).attr('data-content')).show();
-  });
-  $('.socialMedia .local:first').click();
-};
-
-
-Project.renderProjects= function() {Project.projects.forEach(function(projectObj) {
+Project.renderProjects = function() {Project.projects.forEach(function(projectObj) {
   $('#portfolioHighlights').append(projectObj.toHtml());
 });
-//  Project.handleMainNav();
+
 };
 
 Project.fetchAll = function() {
