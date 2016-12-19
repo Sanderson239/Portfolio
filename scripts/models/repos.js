@@ -2,6 +2,7 @@
 (function(module) {
   var repoCompiler = Handlebars.compile($('#repo-template').html());
   var repos = {};
+  var githubToken = 'b1003f66e6aa1c333445319678b26796bca804df'
 
   repos.allrepos = [];
 
